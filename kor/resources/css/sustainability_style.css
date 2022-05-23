@@ -1,0 +1,37 @@
+.visual{background: url('../images/v_05.jpg') no-repeat; background-position: center;}
+
+.quality .banner{background: url('../images/sustainability/quality_banner.jpg')no-repeat; width: 1400px; height: 500px; margin: 60px auto 0; flex-direction: column; text-align: left; justify-content: center; align-items: flex-start; box-sizing: border-box; padding-left: 100px;}
+.quality .banner h1{font-weight: bold; font-size: 40px;}
+.quality .banner p{font-size: 18px; font-weight: 400; color: #fff; line-height: 28px; display: block; margin: 30px 0 0 40px; letter-spacing: -1px;}
+.quality .infographic{margin: 120px 0;}
+.quality .infographic .sub_tit{text-align: center;}
+.quality .infographic .sub_tit h1{font-size: 40px; font-weight: bold;}
+.quality .infographic .sub_tit h1 span{color: #0071d7;}
+.quality .infographic .sub_tit p{font-size: 18px; color: #444; font-weight: 400; margin-top: 15px;}
+.quality .infographic .infor_equation{width: 1085px; margin: 50px auto 0; display: flex; align-items: center; justify-content: space-between;}
+.quality .infographic .infor_equation>div{width: 275px; height: 275px; border-radius: 50%;}
+.quality .infographic .infor_equation img{width: 20px; height: 20px;}
+.quality .infographic .infor_equation>div.target,
+.quality .infographic .infor_equation>div.creation{background: #fff; border: 1px solid #0071d7;}
+.quality .infographic .infor_equation>div.target p,
+.quality .infographic .infor_equation>div.creation p{font-size: 26px; font-weight: bold; color: #0071d7; line-height: 275px; text-align: center;}
+.quality .infographic .infor_equation>div.result{background: #0071d7; display: flex; align-items: center; justify-content: center;}
+.quality .infographic .infor_equation>div.result p{font-size: 18px; font-weight: bold; color: #fff; text-align: center; line-height: 45px; letter-spacing: -1px;}
+.quality .infographic .infor_equation>div.result p span{font-size: 32px; color: #fff;}
+
+.safety{background: #f8f8f8; padding-bottom: 240px;}
+.safety .banner{background: url('../images/sustainability/safety_banner.jpg')no-repeat; width: 1400px; height: 500px; flex-direction: column;}
+.safety .banner h1{font-size: 40px; font-weight: bold;}
+.safety .banner p{font-size: 18px; font-weight: 400; color: #fff; letter-spacing: -1px; line-height: 30px; margin-top: 30px;}
+.safety .safety_policy{margin: 60px auto 0; background: #fff; width: 1400px; height: 420px; display: flex; align-items: center; justify-content: center;}
+.safety .safety_policy_icon{width: 284px; height: 284px; margin-right: 95px;}
+.safety .safety_policy_txt>div{ display: flex; align-items: baseline; margin-top: 17px;}
+.safety .safety_policy_txt>div:first-child{margin-top: 0;}
+.safety .safety_policy_txt span{display: block; width: 10px; height: 10px; background: #6d6d6d; border-radius: 50%; }
+.safety .safety_policy_txt p{font-size: 18px; color: #444; font-weight: 500; margin-left: 10px; line-height: 25px; letter-spacing: -1px;}
+/* .safety .safety_policy_txt span{color: #6d6d6d; font-size: 40px; line-height: 1;} */
+.safety .safety_policy_ex{margin-top: 65px;}
+.safety .safety_policy_ex p{font-size: 20px; color: #666; font-weight: 400; text-align: center;}
+.safety .safety_policy_ex .sign{margin-top: 20px; display: flex; align-items: center; justify-content: center;}
+.safety .safety_policy_ex .sign h1{font-size: 22px; font-weight: bold; letter-spacing: -1px;}
+.safety .safety_policy_ex .sign img{width: 164px;}
