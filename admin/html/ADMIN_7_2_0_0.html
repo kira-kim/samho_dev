@@ -1,0 +1,537 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>지원자관리 / 인재채용관리</title>
+<meta name="author" content="webcss">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/calendar/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="../../resources/css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/common.css">
+<script type="text/javascript" src="../resources/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../resources/js/calendar/jquery-ui.js"></script>
+<script type="text/javascript" src="../resources/js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="../resources/js/common.js"></script>
+</head>
+
+<body>
+<!-- wrap -->
+<div id="wrap" class="layout_type_04">
+	<!-- header -->
+	<div id="header_wrap">
+		<header>
+			<div class="logo"><a href="#none"><img src="../resources/images/b_logo.png" alt="" /></a></div>
+			<div class="side_link"><a href="#none">로그인</a></div>
+		</header>
+	</div>
+	<!-- //header -->
+
+	<!-- aside -->
+	<aside class="nav2dep_motion">
+		<div class="aside_title">
+			환영합니다. <br>
+			<strong>'홍길동'</strong>님
+		</div>
+		<ul class="depth1">
+			<li><a href="#none">시스템관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">관리자관리</a></li>
+					<li><a href="#none">관리자등급관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">메인관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">팝업관리</a></li>
+					<li><a href="#none">메인배너관리(KR/EN)</a></li>
+					<li><a href="#none">배너순서관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">회사소개관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">주요연혁관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">사업실적관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">시공능력관리(KR/EN)</a></li>
+					<li><a href="#none">시공실적관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">투자정보관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">재무정보관리(KR/EN)</a></li>
+					<li><a href="#none">공고관리</a></li>
+				</ul>
+			</li>
+			<li class="active"><a href="#none">인재채용관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">채용공고관리</a></li>
+					<li class="active"><a href="#none">지원자관리</a></li>
+					<li><a href="#none">메일발신관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">홍보센터관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">수상실적관리(KR/EN)</a></li>
+					<li><a href="#none">회사소식관리</a></li>
+				</ul>
+			</li>
+		</ul>
+	</aside>
+	<!-- //aside -->
+
+	<!-- container -->
+	<section id="container">
+		<div id="content">
+			<div class="page_title">지원자관리</div>
+
+			<div class="search_form_02">
+				<div class="search">
+					<span class="label_txt">검색</span>
+					<input type="text" class="inp_auto" />
+					<a href="#none" class="btn_type_02">검색<i class="xi-search"></i></a>
+					<div class="p_t_10">
+						<span class="label_txt">공고구분</span>
+						<select>
+							<option value="">All</option>
+						</select>
+						<span class="label_txt">1차판정</span>
+						<select>
+							<option value="">All</option>
+							<option value="">합격</option>
+							<option value="">보류</option>
+							<option value="">불합격</option>
+						</select>
+						<span class="label_txt">2차판정</span>
+						<select>
+							<option value="">All</option>
+							<option value="">합격</option>
+							<option value="">보류</option>
+							<option value="">불합격</option>
+						</select>
+						<span class="label_txt">최종판정</span>
+						<select>
+							<option value="">All</option>
+							<option value="">합격</option>
+							<option value="">보류</option>
+							<option value="">불합격</option>
+						</select>
+						<span class="label_txt">현황 구분</span>
+						<select>
+							<option value="">All</option>
+							<option value="">심사완료</option>
+							<option value="">검토중</option>
+						</select> 
+					</div>
+				</div>
+				<div class="abs_right">
+					<a href="#none" class="btn_type_02">메일 발송</a>
+					<a href="#none" class="btn_type_02">엑셀 추출</a>
+				</div>
+			</div><!-- search_form_02 -->
+			
+			<div class="table_text_info">
+				<div class="left_box">총, <strong class="c_impt">131건</strong></div>
+				<div class="right_box">
+					<select>
+							<option value="">10</option>
+					</select>
+				</div>
+			</div><!-- table_text_info -->
+
+			<div class="table_list">
+				<table>
+					<colgroup>
+						<col style="width:4%">
+						<col style="width:6%">
+						<col style="width:7%">
+						<col style="width:8%">
+						<col style="width:12%">
+						<col style="width:9%">
+						<col style="width:9%">
+						<col style="width:9%">
+						<col style="width:20%">
+						<col style="width:8%">
+						<col style="width:8%">
+					</colgroup>
+					<thead>
+						<tr>
+							<th><input type="checkbox" /></th>
+							<th>경력</th>
+							<th>공고회차</th>
+							<th>지원자명</th>
+							<th>지원부문</th>
+							<th>1차판정(서류)</th>
+							<th>2차판정(면접)</th>
+							<th>최종판정</th>
+							<th>연락처</th>
+							<th>현황</th>
+							<th>등록</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>경력</td>
+							<td><a href="#none">21-32</a></td>
+							<td><a href="#none">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>010-1234-5678 <br> gildong@naver.com</td>
+							<td><strong class="c_blue">심사완료</strong></td>
+							<td><button type="button" class="btn_type_02">수정</button></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>경력</td>
+							<td><a href="#none">21-32</a></td>
+							<td><a href="#none">전길순</a></td>
+							<td>전산직</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>010-1234-5678 <br> gildong@naver.com</td>
+							<td><strong class="c_org">미확인</strong></td>
+							<td><button type="button" class="btn_type_02">수정</button></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>경력</td>
+							<td><a href="#none">21-32</a></td>
+							<td><a href="#none">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>010-1234-5678 <br> gildong@naver.com</td>
+							<td><strong>검토중</strong></td>
+							<td><button type="button" class="btn_type_02">수정</button></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>경력</td>
+							<td><a href="#none">21-32</a></td>
+							<td><a href="#none">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>010-1234-5678 <br> gildong@naver.com</td>
+							<td><strong class="c_blue">심사완료</strong></td>
+							<td><button type="button" class="btn_type_02">수정</button></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>경력</td>
+							<td><a href="#none">21-32</a></td>
+							<td><a href="#none">전길순</a></td>
+							<td>전산직</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>010-1234-5678 <br> gildong@naver.com</td>
+							<td><strong class="c_org">미확인</strong></td>
+							<td><button type="button" class="btn_type_02">수정</button></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>경력</td>
+							<td><a href="#none">21-32</a></td>
+							<td><a href="#none">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>010-1234-5678 <br> gildong@naver.com</td>
+							<td><strong>검토중</strong></td>
+							<td><button type="button" class="btn_type_02">수정</button></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>경력</td>
+							<td><a href="#none">21-32</a></td>
+							<td><a href="#none">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>010-1234-5678 <br> gildong@naver.com</td>
+							<td><strong class="c_blue">심사완료</strong></td>
+							<td><button type="button" class="btn_type_02">수정</button></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>경력</td>
+							<td><a href="#none">21-32</a></td>
+							<td><a href="#none">전길순</a></td>
+							<td>전산직</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>010-1234-5678 <br> gildong@naver.com</td>
+							<td><strong class="c_org">미확인</strong></td>
+							<td><button type="button" class="btn_type_02">수정</button></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>경력</td>
+							<td><a href="#none">21-32</a></td>
+							<td><a href="#none">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>010-1234-5678 <br> gildong@naver.com</td>
+							<td><strong>검토중</strong></td>
+							<td><button type="button" class="btn_type_02">수정</button></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td>경력</td>
+							<td><a href="#none">21-32</a></td>
+							<td><a href="#none">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>
+								<select>
+									<option value="">선택</option>
+									<option value="">합격</option>
+									<option value="">보류</option>
+									<option value="">불합격</option>
+								</select>
+							</td>
+							<td>010-1234-5678 <br> gildong@naver.com</td>
+							<td><strong class="c_blue">심사완료</strong></td>
+							<td><button type="button" class="btn_type_02">수정</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- table_list -->
+
+			<div class="paginate_ui">
+				<a href="#none" class="btn btn_fst">처음</a>
+				<a href="#none" class="btn btn_prv">이전</a>
+				<a href="#">1</a>
+				<strong>2</strong>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#none" class="btn btn_nxt">다음</a>
+				<a href="#none" class="btn btn_lst">끝</a>
+			</div><!--paginate_ui-->
+
+		</div><!-- content -->
+	</section>
+	<!-- //container -->
+</div>
+<!-- //wrap -->
+</body>
+</html>

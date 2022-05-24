@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/*
+	etc
+*/
+
+.privacy .sect01{padding:80px 0 104px}
+.privacy .privacy_cont{}
+.privacy .revision_year{text-align:center;}
+.privacy .revision_year .selectbox{display:inline-block;margin-right:40px;border-bottom:3px solid #222;padding-bottom:25px}
+.privacy .revision_year .selectbox select{width:300px;font-size:24px;letter-spacing:-0.05em}
+.privacy .revision_year button{display:inline-block;width:105px;height:53px;border-radius:27px;border:1px solid #222;font-size:24px;letter-spacing:-0.05em;color:#222;line-height:53px;vertical-align:bottom}
+.privacy .revision{padding:80px 0 0;font-size:24px;line-height:38px;letter-spacing:-0.05em}
+.privacy .revision p + p{margin-top:38px}
+.privacy .revision .box{background:#f8f8f8;padding:42px 40px 55px;margin:0 -40px;color:#444}
+.privacy .revision .revision_cont{font-size:24px;line-height:38px;color:#444}
+.privacy .revision .revision_cont h1{margin:74px 0 46px;font-size:28px;color:#222;letter-spacing:-0.05em;font-weight:700}
+.privacy .revision .revision_cont .day{margin-top:62px;color:#999}

@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/*
+	주요산업 css
+*/
+
+.section.bg{background:#f8f8f8;}
+.major #visual{background-image:url(../images/major/bg_visual.jpg)}
+.major #visual .visual_txt{color:#222;}
+.major #visual .visual_txt p{color:#222;}
+
+.major_index{background:url(../images/major/bg_visual_index.jpg) no-repeat 0 -600px;height:auto;height:auto}
+.major_index .visual_cont{padding:0 0 180px}
+.major_index .visual_cont ul{}
+.major_index .visual_cont ul li{height:280px;padding:51px 0 0 180px;box-sizing:border-box;position:relative;background:rgba(255,255,255,0.9);}
+.major_index .visual_cont ul li:after{content:'';display:block;position:absolute;width:180px;height:100%;left:0;top:0;background-repeat:no-repeat;background-position:center 58px;}
+.major_index .visual_cont ul li:nth-child(1):after{background-image:url(../images/major/ico_index_link01.png)}
+.major_index .visual_cont ul li:nth-child(2):after{background-image:url(../images/major/ico_index_link02.png)}
+.major_index .visual_cont ul li:nth-child(3):after{background-image:url(../images/major/ico_index_link03.png)}
+.major_index .visual_cont ul li:nth-child(4):after{background-image:url(../images/major/ico_index_link04.png)}
+.major_index .visual_cont ul li:nth-child(5):after{background-image:url(../images/major/ico_index_link05.png)}
+.major_index .visual_cont ul li:nth-child(6):after{background-image:url(../images/major/ico_index_link06.png)}
+.major_index .visual_cont ul li + li{margin-top:20px;}
+.major_index .visual_cont ul li em{font-size:40px;font-weight:700;letter-spacing:-0.05em;color:#222;line-height:1em}
+.major_index .visual_cont ul li p{margin-top:10px;font-size:24px;line-height:34px;letter-spacing:-0.05em;color:#444}
+.major_index .visual_cont ul li a{display:block;}
+.major_index .visual_cont ul li a i{display:block;width:36px;height:36px;position:absolute;right:30px;bottom:30px;overflow:hidden;text-indent:-9999em}
+.major_index .visual_cont ul li a i:before,
+.major_index .visual_cont ul li a i:after{content:'';display:block;position:absolute;background:#444;}
+.major_index .visual_cont ul li a i:before{width:100%;height:2px;left:0;top:50%;margin-top:-1px;}
+.major_index .visual_cont ul li a i:after{width:2px;height:100%;left:50%;top:0;margin-left:-1px;}
+
+/* 주요사업 공통 */
+.intro_cont{}
+.intro_cont .img{font-size:0;}
+.intro_cont .title{position:relative;}
+.intro_cont .title{padding:57px 0 36px;font-size:40px;line-height:60px;font-weight:700;color:#222;letter-spacing:-0.05em}
+.intro_cont .title span{position:absolute;left:135px;top:30px;font-size:65px;letter-spacing:-0.05em;color:#e4e9ee;z-index:-1}
+.intro_cont .title:after {content:'';display:block;width:27px;height:3px;background:#273646;position:absolute;bottom:0}
+.intro_cont .text{padding:22px 0 112px;font-size:24px;line-height:38px;color:#444;letter-spacing:-0.05em}
+.intro_cont .text p + p{margin-top:38px}
+.sub_title{padding:110px 0 52px;font-size:45px;line-height:60px;font-weight:700;letter-spacing:-0.05em;color:#222;text-align:center}
+
+.banner_area{margin:0 -40px;height:430px;background:url(../images/major/bg_engineering01.jpg) no-repeat 0 0;text-align:center;color:#fff;font-size:35px;line-height:50px;letter-spacing:-0.05em;display:flex;align-items:center;justify-content:center;}
+.banner_area strong{display:inline-block;position:relative;}
+.banner_area strong:after{content:'';display:block;width:100%;height:2px;background:#fff;position:absolute;left:0;bottom:3px}
+
+.img_slider{overflow:hidden;position:relative;}
+.img_slider .swiper-button{position:absolute;bottom:0;right:0;z-index:1;}
+.img_slider .swiper-button .swiper-button-next, 
+.img_slider .swiper-button .swiper-button-prev{display:inline-block;vertical-align:top;position:static;width:68px;height:69px;background-color:rgba(255,255,255,0.8);background-position:center center;background-repeat:no-repeat}
+.img_slider .swiper-button .swiper-button-next:after,
+.img_slider .swiper-button .swiper-button-prev:after{content:''}
+.img_slider .swiper-button .swiper-button-prev{background-image:url(../images/common/btn_arr_lft.png);}
+.img_slider .swiper-button .swiper-button-next{background-image:url(../images/common/btn_arr_rgt.png);}
+
+.img_thumb{margin-top:40px;}
+.img_thumb ul{margin-top:-20px;}
+.img_thumb ul:after{content:'';display:table;clear:both}
+.img_thumb ul li{float:left;width:310px;margin-left:20px;margin-top:20px;}
+.img_thumb ul li:nth-child(2n-1){margin-left:0;}
+.img_thumb ul li a{display:block;position:relative;}
+.img_thumb ul li a:after{content:'';display:block;width:100%;height:100%;box-sizing:border-box;position:absolute;left:0;top:0;border:0 solid #0071d7;opacity:0;transition:0.2s ease all}
+.img_thumb ul li.on a:after{border:4px solid #0071d7;opacity:1;}
+
+/* 토목 */
+.engineering .banner_area{background-image:url(../images/major/bg_engineering01.jpg)}
+.engineering .sect02 .sub_title{letter-spacing: -0.08em;}
+.engineering .img_list{padding-bottom:75px}
+.engineering .img_list ul{}
+.engineering .img_list ul:after{content:'';display:table;clear:both}
+.engineering .img_list ul li{float:left;width:310px;height:268px;margin-left:20px;}
+.engineering .img_list ul li:nth-child(5),
+.engineering .img_list ul li:nth-child(6){height: 306px;}
+.engineering .img_list ul li:nth-child(2n-1){margin-left:0;}
+.engineering .img_list ul li .img{font-size:0;}
+.engineering .img_list ul li .tit{display:block;margin-top:16px;text-align:center;font-size:26px;line-height:38px;font-weight:700;letter-spacing:-0.05em;color:#222}
+
+/* 건축 */
+.architecture .sect02{padding-bottom:114px;}
+.architecture .banner_area{background-image:url(../images/major/bg_architecture01.jpg)}
+.architecture .sect02 .sub_title{letter-spacing: -0.08em;}
+.architecture .intro_cont .title span{top:35px;}
+
+/* 산업설비 */
+.industrial .sect02{padding-bottom:114px;}
+.industrial .sect02 .sub_title{letter-spacing: -0.08em;}
+.industrial .banner_area{background-image:url(../images/major/bg_industrial01.jpg)}
+.industrial .intro_cont .title span{font-size:45px;line-height:50px;top:9px;}
+
+/* 조경 */
+.landscape .sect01{padding-bottom:114px}
+.landscape .sect01 .sub_title{letter-spacing: -0.08em;}
+.landscape .banner_area{background-image:url(../images/major/bg_landscape01.jpg)}
+.landscape .intro_cont .title span{top:34px;}
+
+/* 건설기계 */
+.machinary .page_title_area .title{letter-spacing: -0.06em;}
+.machinary .banner_area{background-image:url(../images/major/bg_machinary01.jpg)}
+.machinary .intro_cont .title span{font-size:45px;line-height:50px;top:9px;left:226px}
+.machinary .tab_wrap{}
+.machinary .tab_wrap .tab_btn ul li.on a{background:#0071d7;color:#fff;font-weight:400}
+.machinary .tab_container{padding:60px 0 0}
+.machinary .tab_cont .img_slider .swiper-pagination{bottom:40px;font-size:0}
+.machinary .tab_cont .img_slider .swiper-pagination-bullet{width:22px;height:22px;box-sizing:border-box;border:1px solid #fff;background:none;opacity:1;margin:0 6px;}
+.machinary .tab_cont .img_slider .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#fff;}
+.machinary .tab_cont .table{background:#fff;padding:0 40px 100px}
+.machinary .tab_cont .table .table_title{padding:45px 0 20px;font-size:40px;font-weight:700;color:#222;letter-spacing:-0.05em}
+.machinary .tab_cont .table table{border-top:2px solid #222;width:100%;}
+.machinary .tab_cont .table table thead th{padding:8px 5px 9px 13px;border-bottom:1px solid #c6c6c6;font-size:24px;color:#666;letter-spacing:-0.05em;text-align:left;font-weight:400}
+.machinary .tab_cont .table table tbody td{padding:9px 5px 10px 13px;border-bottom:1px solid #c6c6c6;font-size:22px;color:#999;letter-spacing:-0.05em;text-align:left;}
+.machinary .sect02{background:#f8f8f8;padding-bottom:180px;}
+.machinary .sect02 .sub_title{letter-spacing: -0.08em;}
+
+/* 골재 */
+.aggregate .banner_area{background-image:url(../images/major/bg_aggregate01.jpg)}
+.aggregate .sect02 .sub_title{letter-spacing: -0.08em;}
+.aggregate .sect03{padding-bottom:86px;}
+.aggregate .sect03 .map_view_type01 em{width:210px;padding-left:90px;}
+.aggregate .sect03 .map_view_type01 em:after{width:90px}

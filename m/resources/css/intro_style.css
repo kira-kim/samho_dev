@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*
+	회사소개 introduction
+*/
+
+.introduction #visual{background-image:url(../images/intro/bg_visual.jpg)}
+
+.gree .cont{padding:0 0 46px;font-size:24px;line-height:38px;letter-spacing:-0.05em;color:#444}
+.gree .cont p:first-child{margin:70px 0 74px;font-size:45px;line-height:60px;letter-spacing:-0.05em;font-weight:700;color:#222;text-align:center;}
+.gree .cont p.ceo{margin:42px 0 0;font-weight:700;text-align:right}
+.gree .cont p.ceo .sign{display:block;margin-top:-7px}
+.gree .banner{display:flex;align-items:center;justify-content:center;height:430px;margin:0 -40px;background:url(../images/intro/bg_gree_banner01.jpg) no-repeat 0 0;text-align:center;}
+.gree .banner p{font-size:35px;line-height:50px;color:#fff;letter-spacing:-0.05em}
+.gree .banner p strong{display:inlineblock;font-weight:700;position:relative;}
+.gree .banner p strong:after{content:'';display:block;width:100%;height:2px;position:absolute;left:0;bottom:4px;background:#fff;}
+
+.ideology{}
+.ideology .slider_ideology{position:relative;padding-bottom:100px;}
+.ideology .slider_ideology .slider_cont{}
+.ideology .slider_ideology .slider_cont .swiper-slide dl{padding:89px 25px 0;box-sizing:border-box;height:760px;background-position:0 0;background-repeat:no-repeat}
+.ideology .slider_ideology .slider_cont .swiper-slide dl dt{font-size:50px;letter-spacing:-0.05em;color:#222}
+.ideology .slider_ideology .slider_cont .swiper-slide dl dd{font-size:24px;line-height:38px;letter-spacing:-0.05em;color:#444;word-wrap:keep-all;}
+.ideology .slider_ideology .slider_cont .swiper-slide dl dd.txt_hashtag{margin:22px 0 40px;font-size:26px;line-height:28px;letter-spacing:-0.05em;color:#0071d7;font-weight:700}
+.ideology .slider_ideology .slider_cont .swiper-slide.slide01 dl{background-image:url(../images/intro/bg_ideology_cont01.jpg)}
+.ideology .slider_ideology .slider_cont .swiper-slide.slide02 dl{background-image:url(../images/intro/bg_ideology_cont02.jpg)}
+.ideology .slider_ideology .slider_cont .swiper-slide.slide03 dl{background-image:url(../images/intro/bg_ideology_cont03.jpg)}
+.ideology .slider_ideology .slider_thumb{width:100%;position:absolute;bottom:0;left:0;}
+.ideology .slider_ideology .slider_thumb .swiper-slide a{display:block;width:385px;height:205px;padding:140px 0 0 30px;box-sizing:border-box;position:relative;font-size:30px;font-weight:700;letter-spacing:-0.05em;color:#fff}
+.ideology .slider_ideology .slider_thumb .swiper-slide a:after{content:'';display:block;position:absolute;width:100%;height:100%;left:0;top:0;border:0 solid #fff;transition:0.3s ease border;box-sizing:border-box}
+.ideology .slider_ideology .slider_thumb .swiper-slide.slide01 a{background-image:url(../images/intro/bg_ideology_thumb01.jpg)}
+.ideology .slider_ideology .slider_thumb .swiper-slide.slide02 a{background-image:url(../images/intro/bg_ideology_thumb02.jpg)}
+.ideology .slider_ideology .slider_thumb .swiper-slide.slide03 a{background-image:url(../images/intro/bg_ideology_thumb03.jpg)}
+.ideology .slider_ideology .slider_thumb .swiper-slide.swiper-slide-active a:after{border-width:4px}
+.ideology .slider_ideology .slider_thumb .swiper-slide.swiper-slide-active a{background-position:0 -205px}
+.ideology .vision_cont{padding-bottom:94px;}
+.ideology .vision_cont h3{font-size:50px;letter-spacing:-0.025em;color:#222;text-align:center;padding:50px 0 58px;}
+.ideology .vision_cont ul{display:table;width:100%}
+.ideology .vision_cont li{display:table-cell;text-align:center;padding:197px 0 0;position:relative;font-size:24px;line-height:34px;color:#222;letter-spacing:-0.05em}
+.ideology .vision_cont li:before{content:'';display:block;width:168px;height:168px;border:1px solid #e5e5e5;border-radius:50%;position:absolute;left:50%;top:0;transform:translateX(-50%)}
+.ideology .vision_cont li:nth-child(1){width:170px;}
+.ideology .vision_cont li:nth-child(2){}
+.ideology .vision_cont li:nth-child(3){width:180px;}
+.ideology .vision_cont li:nth-child(1):before{background:url(../images/intro/ico_ideology01.png) no-repeat center center}
+.ideology .vision_cont li:nth-child(2):before{background:url(../images/intro/ico_ideology02.png) no-repeat center center}
+.ideology .vision_cont li:nth-child(3):before{background:url(../images/intro/ico_ideology03.png) no-repeat center center}
+
+.history{background:#f8f8f8;}
+.history .history_title{padding:46px 0 37px;font-size:40px;font-weight:700;letter-spacing:-0.05em;color:#222}
+.history .history_cont{}
+.history .history_cont .years > li:after{content:'';display:table;clear:both}
+.history .history_cont .years .year{display:block;position:relative;float:left;width:90px;margin-top:-10px;font-size:28px;font-weight:700;letter-spacing:-0.05em;color:#0071d7;line-height:1em}
+.history .history_cont .years .year:after{content:'';display:block;width:10px;height:10px;position:absolute;right:-5px;top:50%;margin-top:-5px;background:#0071d7;border-radius:5px;}
+.history .history_cont .years ul{float:left;width:550px;box-sizing:border-box;padding:0 0 80px 30px;border-left:1px solid #e5e5e5}
+.history .history_cont .years > li:last-child ul{border:none;padding-bottom:96px}
+.history .history_cont .years ul li{display:table;width:100%;}
+.history .history_cont .years ul li:first-child{margin-top:-10px}
+.history .history_cont .years ul li + li{margin-top:19px}
+.history .history_cont .years ul li em{display:table-cell;vertical-align:top;font-size:22px;color:#444;width:65px;letter-spacing:-0.05em;line-height:1.41em}
+.history .history_cont .years ul li p{display:table-cell;vertical-align:top;font-size:22px;color:#444;letter-spacing:-0.05em;word-break:keep-all;line-height:1.41em}
+
+.way_to .tab_container{padding:60px 0 64px}
+
+.affiliate{background:#f8f8f8}
+.affiliate .slider_affiliate{padding-bottom:180px;position:relative;}
+.swiper-button-prev:after, .swiper-button-next:after{color:#666;font-size:1.3em}
+.affiliate .slider_affiliate .swiper-button-prev{width:40px;height:36px;left:-40px;margin-top:-100px;}
+.affiliate .slider_affiliate .swiper-button-next{width:40px;height:36px;right:-40px;margin-top:-100px;}
+.affiliate .slider_affiliate .innerbox{background:#fff;padding:60px 30px 0;}
+.affiliate .slider_affiliate .innerbox .title_area{text-align:center;}
+.affiliate .slider_affiliate .innerbox .title_area .logo{height:78px;font-size:0}
+.affiliate .slider_affiliate .innerbox .title_area h3{font-size:40px;letter-spacing:-0.05em;color:#222}
+.affiliate .slider_affiliate .innerbox .title_area p{margin-top:6px;font-size:18px;letter-spacing:-0.025em;color:#999}
+.affiliate .slider_affiliate .innerbox .text_area{padding:47px 0 0;font-size:24px;line-height:38px;color:#444;letter-spacing:-0.05em}
+.affiliate .slider_affiliate .innerbox .text_area p + p{margin-top:38px;}
+
+

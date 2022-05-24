@@ -1,0 +1,118 @@
+
+/* common */
+.pr #visual{height:600px;background:url(../images/pr/pr_bg_visual.jpg) no-repeat 0 0}
+
+/* common e*/
+
+
+/* [S] ci_style */
+.ci .section_title {margin-bottom: 125px;}
+.section_sub_tit{text-align: center; margin-bottom: 55px; line-height: 1.2;}
+.section_sub_tit h3{font-size: 48px; font-weight: bold; color: #222; font-weight: 700; letter-spacing: -0.05em;}
+
+.ci .basic .slogan{margin-top: 60px;}
+.ci .basic .inner_tit p.tit{font-size: 30px; color: #343434; font-weight: 600; letter-spacing: -0.025em;}
+.ci .basic .slogan_img{margin-top: 10px;}
+
+.ci .basic .simbol{margin-top: 110px;}
+.ci .basic .simbol_img{margin-top: 20px;}
+
+.ci .palette{margin-top: 110px;}
+.ci .palette .palette_txt{text-align: center; margin-bottom: 70px;}
+.ci .palette .palette_txt p{margin-top: 35px; font-size: 26px; color: #444; font-weight: 400; letter-spacing: -0.05em;}
+.ci .palette .color{background: #f8f8f8; padding: 65px 0; margin-bottom: 34px;}
+.ci .palette .color .sub_tit{text-align: center;}
+.ci .palette .color .sub_tit h3{font-size: 45px; font-weight: bold; letter-spacing: -0.025em; margin-bottom: 25px;display:inline-block}
+.ci .palette .color.green .sub_tit h3{background: linear-gradient(to right, #71bf44 20%, #95bf44 30%); color: transparent; -webkit-background-clip: text;}
+.ci .palette .color.blue .sub_tit h3{background: linear-gradient(to right, #0071d7 20%, #1f91d1 30%); color: transparent; -webkit-background-clip: text;}
+.ci .palette .color.red .sub_tit h3{background: linear-gradient(to right, #ed1b23 20%, #ed4321 30%); color: transparent; -webkit-background-clip: text;}
+.ci .palette .color .sub_tit p{font-size: 26px; font-weight: 400; color: #444; letter-spacing: -0.05em;}
+.ci .palette .color .color_img{margin-top: 60px;}
+
+.ci .logo_down{margin-top: 100px;}
+.ci .logo_down .section_sub_tit{margin-bottom: 55px;}
+.ci .logo_down .cont{height: 240px; border: 2px solid #d1d1d1; padding: 50px 40px; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;}
+.ci .logo_down .cont .down{text-align: center;}
+.ci .logo_down .cont .down .tit p{font-size: 42px; color: #222; letter-spacing: -0.05em; font-weight: bold;}
+.ci .logo_down .cont .down .down_link a{border: 1px solid #222; border-radius: 50px; width: 178px; height: 69px; display: flex; align-items: center; justify-content: center; margin-top: 22px; font-size: 24px; font-weight: bold; color: #222;letter-spacing:-0.05em}
+.ci .logo_down .cont .down .down_link a img{width: 25px; height: 25px; margin-left: 5px;}
+
+.ci .concept{margin-top: 70px; padding: 120px 0 0; background: linear-gradient(#fbfbfb, #fff 900px);}
+.ci .concept .concept_txt{text-align: center;}
+.ci .concept .concept_txt p{font-size: 26px; font-weight: 400; color: #444; margin-bottom: 20px;letter-spacing:-0.05em}
+.ci .concept .concept_txt p span{font-size: 35px; font-weight: 700; color: #333; line-height: 2;letter-spacing:-0.06em}
+.ci .concept .concept_tags{display: flex; flex-wrap: wrap; width: 610px; margin: 60px auto 0;justify-content:center}
+.ci .concept .concept_tags p{display: block; padding: 17px 45px; border: 1px solid #b1b1b1; font-size: 26px; font-weight: 500; color: #58585a; border-radius: 50px;margin-top: 16px; letter-spacing: -0.05em;}
+
+.ci .description{padding: 110px 0 0;}
+.ci .description .description_txt{text-align: center;}
+.ci .description .description_txt p{font-size: 26px; font-weight: 400; color: #444; letter-spacing: -0.05em;line-height:38px}
+.ci .description .description_img{width: 489px; margin: 50px auto 0;}
+.ci .description_ex{margin: 126px 0; padding: 90px 0; background: #fafafa; text-align: center;}
+.ci .description_ex p{font-size: 28px; font-weight: 400; color: #666; letter-spacing: -0.05em; line-height: 40px;}
+/* [E] ci_style */
+
+/* [S] awards_style */
+.awards{margin-bottom: 150px;}
+.awards .section_title{margin-bottom: 45px;}
+.awards .banner{background: url('../images/pr/awards_banner.jpg')no-repeat 0 0; width: 640px; height: 437px;}
+.awards .banner p{margin-top:0;font-size:25px;line-height:36px;color:#fff;letter-spacing:-0.05em;padding-bottom:8px}
+.awards .banner p strong{display:inline-block;font-weight:700;position:relative;font-size:35px;line-height:50px}
+.awards .banner p strong:after{content:'';display:block;width:100%;height:2px;position:absolute;left:0;bottom:1px;background:#9a9e9f;}
+.awards .banner p strong + strong{margin-bottom:12px;}
+
+
+.awards .tab_btn{margin: 60px 0;}
+.awards .tab_container .tit{font-size: 40px; font-weight: bold; color: #222; letter-spacing: -0.025em;}
+.awards .tab_container .cont{margin-top: 40px;}
+.awards .tab_container .annum{display: flex;}
+.awards .tab_container .annum .year{margin-right: 25px;}
+.awards .tab_container .annum .year li{font-size: 28px; font-weight: 700; color: #0071d7; letter-spacing: -0.025em;}
+.awards .tab_container .annum .month:last-child{position: relative; padding-left: 30px; padding-bottom: 70px;}
+.awards .tab_container .annum .month:last-child::after{content: ''; display: inline-block; position: absolute; top: 14px; left: -3px; width: 10px; height: 10px; text-align: center; border-radius: 50%; background: #0071d7;}
+.awards .tab_container .annum .month:last-child::before{content: ''; display: inline-block; position: absolute; top: 20px; left: 0; width: 2px; height: 100%; background: #e5e5e5;}
+.awards .tab_container .annum:last-child .month:last-child{padding-bottom: 0;}
+.awards .tab_container .annum .month li{display: flex; margin-top: 20px;}
+.awards .tab_container .annum .month li:first-child{margin-top: 2px;}
+.awards .tab_container .annum .month li p{font-size: 22px; font-weight: 600; color: #444; line-height: 30px; letter-spacing: -0.03em;}
+.awards .tab_container .annum .month li p.cont_txt{font-weight: 400; margin-left: 40px;}
+/* [E] awards_style */
+
+/* [S] newsletter_style */
+.newsletter{margin: 100px 0 200px;}
+/* [E] newsletter_style */
+
+/* [S] newsletter_view_style */
+.newsletter_view{margin: 100px 0 150px;}
+.newsletter_view .view_table{border-top: 3px solid #222;}
+.newsletter_view .view_table>div{border-bottom: 2px solid #eee;}
+.newsletter_view .view_table .view_title{padding: 45px 20px;}
+.newsletter_view .view_table .view_title h3{font-size: 38px; font-weight: bold; color: #222; line-height: 1.1; letter-spacing: -0.05em;}
+.newsletter_view .view_table .view_title .date{margin-top: 10px; display: flex; align-items: center;}
+.newsletter_view .view_table .view_title .date p{font-size: 22px; font-weight: 400; color: #999; letter-spacing: -0.05em;}
+.newsletter_view .view_table .view_title .date p.new_icon{margin-right: 8px; color: #0071d7; letter-spacing: -0.09em;}
+.newsletter_view .view_table .view_cont{padding: 40px 20px;}
+.newsletter_view .view_table .view_cont p{font-size: 26px; letter-spacing: -0.05em; line-height: 38px; color: #444; font-weight: 400;}
+.newsletter_view .view_table .view_cont .view_img{margin: 50px auto; text-align: center;}
+/* [E] newsletter_view_style */
+
+
+/* [S] catalog_style */
+
+.catalog .inner_w{background: #f8f8f8; padding: 70px 0 170px;}
+.catalog .inner{width: 640px; margin: 0 auto;}
+.catalog .sub_tit{text-align: center;}
+.catalog .sub_tit h5{font-size: 40px; font-weight: bold; color: #cecece;}
+.catalog .sub_tit p{font-size: 26px; font-weight: 400; color: #666; margin-top: 20px;}
+.catalog .file_save{display: flex; justify-content: space-between; margin: 60px 0 75px; text-align: center;}
+.catalog .file_save>div{width: 310px;}
+.catalog .file_save .tit p{font-size: 26px; font-weight: 500; color: #666; letter-spacing: -0.025em;}
+.catalog .file_save .pdf{margin: 15px 0 20px;}
+.catalog .file_save .down_link a{display: block; width: 304px; height: 77px; margin: 0 auto; border: 1px solid #0071d7; border-radius: 50px; display: flex; align-items: center; justify-content: center; color: #0071d7; font-size: 24px; font-weight: bold;}
+.catalog .file_save .down_link img{filter: invert(24%) sepia(72%) saturate(2964%) hue-rotate(195deg) brightness(98%) contrast(101%); width: 25px; height: 25px; margin-left: 10px;}
+.catalog .hr{width: 100%; height: 2px; background-color: #e7e7e7; margin: 80px 0 60px;}
+.catalog .adobe_ex{text-align: center;}
+.catalog .adobe_ex .adobe_icon{width: 241px; margin: 0 auto 25px;}
+.catalog .adobe_ex .txt p{font-size: 22px; font-weight: 400; color: #666; letter-spacing: -0.025em;}
+/* [E] catalog_style */
+

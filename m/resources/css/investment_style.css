@@ -1,0 +1,68 @@
+/* common */
+.investment #visual{height:600px;background:url(../images/investment/investment_bg_visual.jpg) no-repeat 0 0}
+
+
+.section_sub_title{text-align: center;}
+.section_sub_title h3{font-size: 35px; font-weight: 400; line-height: 50px; letter-spacing: -0.05em; color: #222;}
+.section_sub_title span{color: #0071d7; font-weight: 600; text-decoration: underline; text-underline-position: under;}
+
+
+/* common e*/
+
+
+/* [S] manage_infor_style */
+.manage_infor{margin: 0 0 150px;}
+.manage_infor .manage_center{background: url('../images/investment/manage_bg.jpg')no-repeat 0 0; width: 720px; height: 2128px; box-sizing: border-box; padding: 90px 40px 100px;}
+.manage_infor .manage_center_cont{margin-top: 50px;}
+.manage_infor .manage_center_cont>div{background: rgba(255,255,255,0.85); width: 640px; height: 160px; margin-bottom: 20px;display: flex; align-items: center; box-sizing: border-box; padding-left: 40px;}
+.manage_infor .manage_center_cont>div .cont_icon{width: 90px; height: 90px; margin-right: 30px;}
+.manage_infor .manage_center_cont>div .cont_txt p{font-size: 22px; font-weight: 400; color: #666; letter-spacing: -0.05em; margin-bottom: 10px;}
+.manage_infor .manage_center_cont>div .cont_txt h5{font-size: 26px; line-height: 32px; font-weight: 800; color: #222; letter-spacing: -0.05em;}
+
+.manage_infor .thanks{margin: 120px auto 0; width: 640px;}
+.manage_infor .thanks_txt .thanks_tit{margin-top: 50px; text-align: center;}
+.manage_infor .thanks_txt .thanks_tit h3{font-size: 45px; font-weight: 600; line-height: 60px; letter-spacing: -0.05em; color: #222;}
+.manage_infor .thanks_txt .thanks_cont{margin-top: 70px;}
+.manage_infor .thanks_txt .thanks_cont p{margin-bottom: 40px; font-size: 24px; font-weight: 400; color: #444; letter-spacing: -0.05em; line-height: 38px;}
+/* [E] manage_infor_style */
+
+/* [S] financial_infor_style */
+.financial_infor{margin: 100px 0 150px;}
+.financial_infor .tab_btn{margin-bottom: 55px;}
+.financial_infor .table_list_type01{margin-top: 80px;}
+.financial_infor .table_list_type01:first-child{margin-top: 0;}
+/* [E] financial_infor_style */
+
+/* [S] disclosure_infor_style */
+.disclosure_infor{margin: 100px auto 150px;}
+.disclosure_save{border: 1px solid #222; border-radius: 50px; width: 268px; height: 69px; display: flex; align-items: center; justify-content: center; margin: 0 auto 60px;}
+.disclosure_save a{font-size: 24px; font-weight: 700; color: #222; letter-spacing: -0.05em;}
+.disclosure_save a img{width: 30px; height: 30px; margin-left: 8px;}
+/* [E] disclosure_infor_style */
+
+/* [S] announcement_style */
+.announcement{margin: 100px auto 150px;}
+/* [E] announcement_style */
+
+/* [S] announcement_view_style */
+.announcement_view{margin: 100px auto 150px;}
+.announcement_view .view_table{border-top: 3px solid #222;}
+.announcement_view .view_table .view_title{width: 640px; box-sizing: border-box; padding: 50px 20px 40px; border-bottom: 2px solid #eee;}
+.announcement_view .view_table .view_title h3{font-size: 38px; font-weight: 700; color: #222; letter-spacing: -0.05em; line-height: 45px;}
+.announcement_view .view_table .view_title .date{display: flex; flex-wrap: wrap; margin-top: 25px;}
+.announcement_view .view_table .view_title .date>div{display: flex; align-items: center; text-align: left;}
+.announcement_view .view_table .view_title .date>div.period{width: 100%; margin-top: 10px;}
+.announcement_view .view_table .view_title .date>div p{font-size: 22px; font-weight: 500; color: #999; letter-spacing: -0.05em;}
+.announcement_view .view_table .view_title .date>div p:last-child{margin-left: 10px;}
+.announcement_view .view_table .view_title .date i{position: relative; font-size: 0px; margin: 0 15px;}
+.announcement_view .view_table .view_title .date i::after{position: absolute; right: 0; top: 50%; content: ''; display: block; width: 2px; height: 20px; background-color: #e5e5e5; border: none;
+-moz-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);}
+.announcement_view .view_table .view_table_cont{width: 600px; margin: 50px auto;}
+.announcement_view .view_table .view_table_cont .cont_img{text-align: center; margin: 50px auto;}
+.announcement_view .view_table .view_table_cont .cont_txt{text-align: left;}
+.announcement_view .view_table .view_table_cont .cont_txt p{font-size: 26px; font-weight: 400; color: #444; letter-spacing: -0.05em; line-height: 38px;}
+/* [E] announcement_view_style */

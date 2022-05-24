@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*
+	사업실적 profit
+*/
+
+#visual{background-image:url(../images/profit/bg_visual.jpg)}
+
+/* ability 시공능력 */
+.ability .sect01{padding:100px 0 114px}
+.ability .tab_container{padding:58px 0 0;}
+.ability .tab_container .table_list_type01{margin-top:80px;}
+.ability .tab_container .table_list_type01.first{margin-top:0}
+.ability .table_list_type01 table th, .table_list_type01 table td{padding: 19px 8px 18px;}
+
+.performance .sect01{padding:78px 0 110px;}
+.performance .sect01 .paging_num{margin:0}
+
+.pop_performance_view .txt_select_division{text-align:center;font-size:0;margin-bottom:26px}
+.pop_performance_view .txt_select_division p{display:inline-block;padding:0 19px;position:relative;font-size:24px;color:#0071d7;line-height:1em;font-weight:700;}
+.pop_performance_view .txt_select_division p + p:after{content:'';display:block;width:1px;height:20px;background:#dadada;position:absolute;left:0;top:50%;transform:translateY(-50%)}
+.pop_performance_view .list_img li{font-size:0}
+.pop_performance_view .list_img li + li{margin-top:40px;}

@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>연혁 등록 / 회사소개관리</title>
+<meta name="author" content="webcss">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/calendar/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="../../resources/css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/common.css">
+<script type="text/javascript" src="../resources/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../resources/js/calendar/jquery-ui.js"></script>
+<script type="text/javascript" src="../resources/js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="../resources/js/common.js"></script>
+</head>
+
+<body>
+<!-- wrap -->
+<div id="wrap" class="layout_type_04">
+	<!-- header -->
+	<div id="header_wrap">
+		<header>
+			<div class="logo"><a href="#none"><img src="../resources/images/b_logo.png" alt="" /></a></div>
+			<div class="side_link"><a href="#none">로그인</a></div>
+		</header>
+	</div>
+	<!-- //header -->
+
+	<!-- aside -->
+	<aside class="nav2dep_motion">
+		<div class="aside_title">
+			환영합니다. <br>
+			<strong>'홍길동'</strong>님
+		</div>
+		<ul class="depth1">
+			<li><a href="#none">시스템관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">관리자관리</a></li>
+					<li><a href="#none">관리자등급관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">메인관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">팝업관리</a></li>
+					<li><a href="#none">메인배너관리(KR/EN)</a></li>
+					<li><a href="#none">배너순서관리</a></li>
+				</ul>
+			</li>
+			<li class="active"><a href="#none">회사소개관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li class="active"><a href="#none">주요연혁관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">사업실적관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">시공능력관리(KR/EN)</a></li>
+					<li><a href="#none">시공실적관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">투자정보관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">재무정보관리(KR/EN)</a></li>
+					<li><a href="#none">공고관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">인재채용관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">채용공고관리</a></li>
+					<li><a href="#none">지원자관리</a></li>
+					<li><a href="#none">메일발신관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">홍보센터관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">수상실적관리(KR/EN)</a></li>
+					<li><a href="#none">회사소식관리</a></li>
+				</ul>
+			</li>
+		</ul>
+	</aside>
+	<!-- //aside -->
+
+	<!-- container -->
+	<section id="container">
+		<div id="content">
+			<div class="page_title">연혁 등록</div>
+
+			<div class="table_form tit_left">
+				<table>
+					<colgroup>
+						<col style="width:20%">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 날짜</th>
+							<td><input type="text" class="inp_auto btn_calendar_type_02" readonly /></td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 노출여부</th>
+							<td>
+								<input type="radio" id="use_yes" name="use" /><label for="use_yes">YES</label>
+								<input type="radio" id="use_no" name="use" /><label for="use_no">NO</label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> KR/EN</th>
+							<td>
+								<input type="radio" id="language_kr" name="language" /><label for="language_kr">KR</label>
+								<input type="radio" id="language_en" name="language" /><label for="language_en">EN</label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 타이틀</th>
+							<td>
+								<textarea cols="30" rows="5" placeholder="타이틀은 20자 내로 입력해 주세요."></textarea>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- table_form -->
+
+			<div class="btn_position">
+				<div class="right">
+					<a href="#none" class="btn_type_01">취소</a>
+					<a href="#none" class="btn_type_02">등록</a>
+				</div>
+			</div><!-- btn_position -->
+
+		</div><!-- content -->
+	</section>
+	<!-- //container -->
+</div>
+<!-- //wrap -->
+</body>
+</html>

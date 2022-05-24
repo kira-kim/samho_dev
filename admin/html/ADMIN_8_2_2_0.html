@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>소식 수정 / 홍보센터관리</title>
+<meta name="author" content="webcss">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/calendar/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="../../resources/css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/common.css">
+<script type="text/javascript" src="../resources/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../resources/js/calendar/jquery-ui.js"></script>
+<script type="text/javascript" src="../resources/js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="../resources/js/common.js"></script>
+</head>
+
+<body>
+<!-- wrap -->
+<div id="wrap" class="layout_type_04">
+	<!-- header -->
+	<div id="header_wrap">
+		<header>
+			<div class="logo"><a href="#none"><img src="../resources/images/b_logo.png" alt="" /></a></div>
+			<div class="side_link"><a href="#none">로그인</a></div>
+		</header>
+	</div>
+	<!-- //header -->
+
+	<!-- aside -->
+	<aside class="nav2dep_motion">
+		<div class="aside_title">
+			환영합니다. <br>
+			<strong>'홍길동'</strong>님
+		</div>
+		<ul class="depth1">
+			<li><a href="#none">시스템관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">관리자관리</a></li>
+					<li><a href="#none">관리자등급관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">메인관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">팝업관리</a></li>
+					<li><a href="#none">메인배너관리(KR/EN)</a></li>
+					<li><a href="#none">배너순서관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">회사소개관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">주요연혁관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">사업실적관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">시공능력관리(KR/EN)</a></li>
+					<li><a href="#none">시공실적관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">투자정보관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">재무정보관리(KR/EN)</a></li>
+					<li><a href="#none">공고관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">인재채용관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">채용공고관리</a></li>
+					<li><a href="#none">지원자관리</a></li>
+					<li><a href="#none">메일발신관리</a></li>
+				</ul>
+			</li>
+			<li class="active"><a href="#none">홍보센터관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">수상실적관리(KR/EN)</a></li>
+					<li class="active"><a href="#none">회사소식관리</a></li>
+				</ul>
+			</li>
+		</ul>
+	</aside>
+	<!-- //aside -->
+
+	<!-- container -->
+	<section id="container">
+		<div id="content">
+			<div class="page_title">소식 수정</div>
+			
+			<div class="table_form tit_left">
+				<table>
+					<colgroup>
+						<col style="width:20%">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 타이틀</th>
+							<td><input type="text" class="inp" placeholder="타이틀을 입력해 주세요." value="당진시 (재)당진장학회 장학금 전달식 " /></td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 날짜</th>
+							<td><input type="text" class="inp_auto btn_calendar_type_02" readonly /></td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 노출여부</th>
+							<td>
+								<input type="radio" id="use_yes" name="use" checked /><label for="use_yes">YES</label>
+								<input type="radio" id="use_no" name="use" /><label for="use_no">NO</label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 대표 공지글 설정</th>
+							<td>
+								<input type="radio" id="notice_y" name="notice" checked /><label for="notice_y">YES</label>
+								<input type="radio" id="notice_n" name="notice" /><label for="notice_n">NO</label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 내용</th>
+							<td class="edit_box_s">
+								에디터 영역<br/>에디터 영역<br/>에디터 영역<br/>에디터 영역<br/>에디터 영역<br/>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">파일 첨부 <br></th>
+							<td>
+								<div class="file_ui_text btn_left">
+									<input type="text"  id="file_route_01" class="file_text" readonly="readonly" title="첨부된 파일경로" />
+									<span class="file_wrap">
+									찾아보기
+									<input type="file" class="file_add" onchange="javascript:document.getElementById('file_route_01').value=this.value" />
+									</span>
+								</div>
+								<div class="file_preview">
+									<ul>
+										<li><a href="#none" class="btn_download"><i class="xi-file"></i></a> 홍길동 자소서.pdf <button class="btn_icon btn_del"><i class="xi-close-min"></i><span class="txt">삭제</span></button></li>
+									</ul>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- table_form -->
+			
+			<div class="btn_position">
+				<div class="left">
+					<a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_12">미리보기</a>
+				</div>
+				<div class="right">
+					<a href="#none" class="btn_type_01">취소</a>
+					<a href="#none" class="btn_type_02">등록</a>
+				</div>
+			</div><!-- btn_position -->
+
+		</div><!-- content -->
+	</section>
+	<!-- //container -->
+</div>
+<!-- //wrap -->
+
+
+<!-- pop_12 -->
+<div class="popup_wrap pop_12">
+	<div class="popup_content">
+		<div class="title">미리보기</div>
+
+		<div class="newsletter_viewpage">
+			<table>
+				<colgroup>
+					<col style="width:1017px">
+					<col style="width:183px">
+				</colgroup>
+				<tbody>
+					<tr class="tr_title">
+						<td colspan="2">삼호호미재단 우수 기부단체 감사패 수상</td>
+					</tr>
+					<tr class="sub_tit">
+						<td class="day">
+							<p class="new">NEW</p>
+							<p><span>2021.03.18</span></p>
+						</td>
+						<td class="file">
+							<button>첨부파일<img src="../resources/images/common/file_save.png" alt=""></button>
+						</td>
+					</tr>
+					<tr class="cont">
+						<td colspan="2">
+							당사의 적극적인 기부활동으로'삼호호미재단'이 서초구청장으로부터<br>감사패를 받았습니다.<br><br>'삼호호미재단'은 매년 지역사회의 취약계층 노인, 청소년, 장애인을 대상으로<br>따뜻한 온정과 함께 생계비 등을 직접 지원하고 있는 공익재단으로,<br><br>당사도 이같은 선한 활동에 적극 동참하고자 동 재단에 매년 정기적으로 후원하고 있습니다.<br>앞으로도 당사는 소외받는 취약계층 지원을 위해 함께하겠습니다.
+							<img src="../resources/images/temp/@temp_announcement.jpg" alt="">
+						</td>
+					</tr>
+					<tr class="file bc_gray">
+						<td colspan="2">
+							<a href="">
+								<img src="../resources/images/common/file_save.png" alt="">&nbsp;삼호호미재단 감사패 수상.pdf &nbsp; <span>(78.23KB / 다운로드 : 214회)</span>
+							</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div><!-- announcement_view -->
+		<button type="button" class="popup_close" data-Popup_Close="pop_12">닫기</button>
+	</div><!-- popup_content -->
+</div><!-- popup_wrap -->
+
+
+</body>
+</html>

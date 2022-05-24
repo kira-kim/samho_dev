@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>배너 수정 / 메인관리</title>
+<meta name="author" content="webcss">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/calendar/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="../../resources/css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/common.css">
+<script type="text/javascript" src="../resources/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../resources/js/calendar/jquery-ui.js"></script>
+<script type="text/javascript" src="../resources/js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="../resources/js/common.js"></script>
+</head>
+
+<body>
+<!-- wrap -->
+<div id="wrap" class="layout_type_04">
+	<!-- header -->
+	<div id="header_wrap">
+		<header>
+			<div class="logo"><a href="#none"><img src="../resources/images/b_logo.png" alt="" /></a></div>
+			<div class="side_link"><a href="#none">로그인</a></div>
+		</header>
+	</div>
+	<!-- //header -->
+
+	<!-- aside -->
+	<aside class="nav2dep_motion">
+		<div class="aside_title">
+			환영합니다. <br>
+			<strong>'홍길동'</strong>님
+		</div>
+		<ul class="depth1">
+			<li><a href="#none">시스템관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">관리자관리</a></li>
+					<li><a href="#none">관리자등급관리</a></li>
+				</ul>
+			</li>
+			<li class="active"><a href="#none">메인관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">팝업관리</a></li>
+					<li class="active"><a href="#none">메인배너관리(KR/EN)</a></li>
+					<li><a href="#none">배너순서관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">회사소개관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">주요연혁관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">사업실적관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">시공능력관리(KR/EN)</a></li>
+					<li><a href="#none">시공실적관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">투자정보관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">재무정보관리(KR/EN)</a></li>
+					<li><a href="#none">공고관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">인재채용관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">채용공고관리</a></li>
+					<li><a href="#none">지원자관리</a></li>
+					<li><a href="#none">메일발신관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">홍보센터관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">수상실적관리(KR/EN)</a></li>
+					<li><a href="#none">회사소식관리</a></li>
+				</ul>
+			</li>
+		</ul>
+	</aside>
+	<!-- //aside -->
+
+	<!-- container -->
+	<section id="container">
+		<div id="content">
+			<div class="page_title">배너 수정</div>
+
+			<div class="top_btn_area">
+				<div class="btn_tab_list f_left">
+					<ul>
+						<li class="active"><a href="#none">KR</a></li>
+					</ul>
+				</div>
+			</div><!-- top_btn_area -->
+
+			<div class="page_stitle">PC 메인배너 등록</div>
+			<div class="table_form tit_left">
+				<table>
+					<colgroup>
+						<col style="width:20%">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 제목</th>
+							<td><input type="text" class="inp width_45p" placeholder="ㅣ 제목을 입력해 주세요." value="삼호개발 메인배너1ㅣ "/></td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> PC 미디어 타입</th>
+							<td>
+								<input type="radio" id="media_img" name="media_type" checked /><label for="media_img">이미지</label>
+								<input type="radio" id="media_mov" name="media_type" /><label for="media_mov">비디오</label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 사용여부</th>
+							<td>
+								<input type="radio" id="use_yes" name="use" /><label for="use_yes">YES</label>
+								<input type="radio" id="use_no" name="use" checked /><label for="use_no">NO</label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 이미지 업로드 <br> &nbsp; <span class="txt_sm">(1920 x 920 px권장)</span></th>
+							<td>
+								<div class="file_ui_text btn_left">
+									<input type="text"  id="file_route_01" class="file_text" readonly="readonly" title="첨부된 파일경로" />
+									<span class="file_wrap">
+									찾아보기
+									<input type="file" class="file_add" onchange="javascript:document.getElementById('file_route_01').value=this.value" />
+									</span>
+								</div>
+								<div class="file_preview">
+									<ul>
+										<li><img src="../resources/images/temp/@temp_banner.jpg" alt="">@temp_profit_01.jpg <button class="btn_icon btn_del"><i class="xi-close-min"><span class="txt">삭제</span></i></button></li>
+									</ul>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">링크</th>
+							<td><input type="text" class="inp width_45p" value="http://www.samhodev.co.kr/kor/business/business.php" /> &nbsp; <input type="checkbox" id="target_blank" /><label for="target_blank">새창으로</label></td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- table_form -->
+			
+			<div class="btn_position">
+				<a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_07">미리보기</a>
+			</div><!-- btn_position -->
+			<!-- // PC 메인배너 등록 -->
+			
+			<div class="page_stitle">MB 메인배너 등록</div>
+			<div class="table_form tit_left">
+				<table>
+					<colgroup>
+						<col style="width:20%">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 제목</th>
+							<td><input type="text" class="inp width_45p" placeholder="ㅣ 제목을 입력해 주세요." value="삼호개발 메인배너1ㅣ " /></td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> MB 미디어 타입</th>
+							<td>
+								<input type="radio" id="media_img2" name="media_type2" /><label for="media_img2">이미지</label>
+								<input type="radio" id="media_mov2" name="media_type2" checked /><label for="media_mov2">비디오</label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 사용여부</th>
+							<td>
+								<input type="radio" id="use_yes2" name="use" /><label for="use_yes2">YES</label>
+								<input type="radio" id="use_no2" name="use2" checked /><label for="use_no2">NO</label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 이미지 업로드 <br> &nbsp; <span class="txt_sm">(720 X 1140px권장)</span></th>
+							<td>
+								<div class="file_ui_text btn_left">
+									<input type="text"  id="file_route_02" class="file_text" readonly="readonly" title="첨부된 파일경로" />
+									<span class="file_wrap">
+									찾아보기
+									<input type="file" class="file_add" onchange="javascript:document.getElementById('file_route_02').value=this.value" />
+									</span>
+								</div>
+								<div class="file_preview">
+									<ul>
+										<li><img src="../resources/images/temp/@temp_banner.jpg" alt="">@temp_profit_01.jpg <button class="btn_icon btn_del"><i class="xi-close-min"><span class="txt">삭제</span></i></button></li>
+									</ul>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">링크</th>
+							<td><input type="text" class="inp width_45p" value="" /> &nbsp; <input type="checkbox" id="target_blank2" /><label for="target_blank2">새창으로</label></td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- table_form -->
+			
+			<div class="btn_position">
+				<a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_08">미리보기</a>
+			</div><!-- btn_position -->
+			<!-- // MB 메인배너 등록 -->
+
+			<div class="btn_position">
+				<div class="right">
+					<a href="#none" class="btn_type_01">취소</a>
+					<a href="#none" class="btn_type_02">수정</a>
+				</div>
+			</div><!-- btn_position -->
+
+		</div><!-- content -->
+	</section>
+	<!-- //container -->
+</div>
+<!-- //wrap -->
+
+
+<!-- pop_07 -->
+<div class="popup_wrap type02 pop_07">
+	<div class="popup_content">
+		<!-- 이미지 일때 -->
+		<!-- <div class="imgbox" style="background-image:url(../resources/images/temp/@temp_banner.jpg)">
+			<div class="kv_txt c_black">색상 블랙일때 c_black, 화이트일때 c_white
+				<div class="tit">Future, Dream,<br>Imagination Come True</div>
+				<div class="txt">미래, 꿈, 상상을 현실을 만들어가는 기업</div>
+			</div>
+		</div> -->
+
+		<!-- [S] 2022-03-21 [mprd] 비디오 일때 상단 imgbox는 미출력 -->
+ 		<div class="videobox">
+			<video width="1920" height="920" autoplay loop muted="muted">
+				<source src="http://dev.hanbom.com/data/main_banner/thumbnail_202202192145341.mp4" type="video/mp4"></source>
+			</video>
+			<div class="kv_txt c_white">
+				<div class="tit">깨끗한 환경 안전한 세상을<br>만들어갑니다.</div>
+			</div>
+		</div>
+		<!-- [E] 2022-03-21 [mprd] -->
+
+		<button type="button" class="popup_close" data-Popup_Close="pop_07">닫기</button>
+	</div><!-- popup_content -->
+</div><!-- popup_wrap -->
+<!-- // pop_07 -->
+
+
+<!-- pop_08 -->
+<div class="popup_wrap type02 pop_08">
+	<div class="popup_content">
+		<!-- 이미지 일때 -->
+		<!-- <div class="imgbox" style="background-image:url(../resources/images/temp/@temp_banner.jpg)">
+			<div class="kv_txt c_white">
+				<div class="tit">Future, Dream, Imagination Come True</div>
+				<div class="txt">미래, 꿈, 상상을 현실을 만들어가는 기업</div>
+			</div>
+		</div> -->
+		<!-- [S] 2022-03-21 [mprd] 비디오 일때 -->
+		<div class="videobox">
+			<video autoplay loop muted="muted">
+				<source src="http://dev.hanbom.com/data/main_banner/thumbnail_202202192145341.mp4" type="video/mp4"></source>
+			</video>
+			<div class="kv_txt c_white">
+				<div class="tit">Future, Dream, Imagination Come True</div>
+				<div class="txt">미래, 꿈, 상상을 현실을 만들어가는 기업</div>
+			</div>
+		</div>
+		<!-- [E] 2022-03-21 [mprd]-->
+		<button type="button" class="popup_close" data-Popup_Close="pop_08">닫기</button>
+	</div><!-- popup_content -->
+</div><!-- popup_wrap -->
+<!-- // pop_08 -->
+
+
+</body>
+</html>

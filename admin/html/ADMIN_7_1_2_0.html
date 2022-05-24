@@ -1,0 +1,344 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>채용공고 등록 / 인재채용관리</title>
+<meta name="author" content="webcss">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/calendar/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="../../resources/css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/common.css">
+<script type="text/javascript" src="../resources/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../resources/js/calendar/jquery-ui.js"></script>
+<script type="text/javascript" src="../resources/js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="../resources/js/common.js"></script>
+</head>
+
+<body>
+<!-- wrap -->
+<div id="wrap" class="layout_type_04">
+	<!-- header -->
+	<div id="header_wrap">
+		<header>
+			<div class="logo"><a href="#none"><img src="../resources/images/b_logo.png" alt="" /></a></div>
+			<div class="side_link"><a href="#none">로그인</a></div>
+		</header>
+	</div>
+	<!-- //header -->
+
+	<!-- aside -->
+	<aside class="nav2dep_motion">
+		<div class="aside_title">
+			환영합니다. <br>
+			<strong>'홍길동'</strong>님
+		</div>
+		<ul class="depth1">
+			<li><a href="#none">시스템관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">관리자관리</a></li>
+					<li><a href="#none">관리자등급관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">메인관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">팝업관리</a></li>
+					<li><a href="#none">메인배너관리(KR/EN)</a></li>
+					<li><a href="#none">배너순서관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">회사소개관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">주요연혁관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">사업실적관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">시공능력관리(KR/EN)</a></li>
+					<li><a href="#none">시공실적관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">투자정보관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">재무정보관리(KR/EN)</a></li>
+					<li><a href="#none">공고관리</a></li>
+				</ul>
+			</li>
+			<li class="active"><a href="#none">인재채용관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li class="active"><a href="#none">채용공고관리</a></li>
+					<li><a href="#none">지원자관리</a></li>
+					<li><a href="#none">메일발신관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">홍보센터관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">수상실적관리(KR/EN)</a></li>
+					<li><a href="#none">회사소식관리</a></li>
+				</ul>
+			</li>
+		</ul>
+	</aside>
+	<!-- //aside -->
+
+	<!-- container -->
+	<section id="container">
+		<div id="content">
+			<div class="page_title">채용공고 등록</div>
+			
+			<div class="table_form tit_left">
+				<table>
+					<colgroup>
+						<col style="width:20%">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 타이틀</th>
+							<td><input type="text" class="inp" placeholder="타이틀을 입력해 주세요." /></td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 공고회차</th>
+							<td><input type="text" class="inp_auto" placeholder="YY" /> - <input type="text" class="inp_auto" placeholder="NN" /></td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 노출여부</th>
+							<td>
+								<input type="radio" id="use_yes" name="use" /><label for="use_yes">YES</label>
+								<input type="radio" id="use_no" name="use" /><label for="use_no">NO</label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 경력</th>
+							<td>
+								<input type="radio" id="career_n" name="career" /><label for="career_n">신입</label>
+								<input type="radio" id="career_y" name="career" /><label for="career_y">경력</label>
+								<input type="radio" id="career_ny" name="career" /><label for="career_ny">신입 · 경력</label>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 모집부문</th>
+							<td>
+								<a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_04">부문 선택</a> <span>선택된 부문이 없습니다.</span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">학력</th>
+							<td>
+								<select>
+									<option value="">학력무관</option>
+									<option value="">초등학교졸업</option>
+									<option value="">중학교졸업</option>
+									<option value="">고등학교졸업 이상</option>
+									<option value="">대학졸업(2,3년) 이상</option>
+									<option value="">대학교졸업(4년) 이상</option>
+									<option value="">대학원 졸업</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 지원기간</th>
+							<td><input type="text" class="inp_auto btn_calendar_type_02" readonly /> ~ <input type="text" class="inp_auto btn_calendar_type_02" readonly /></td>
+						</tr>
+						<tr>
+							<th scope="row">자격</th>
+							<td><input type="text" class="inp" placeholder="자격을 입력해 주세요." /></td>
+						</tr>
+						<tr>
+							<th scope="row">모집인원</th>
+							<td><input type="text" class="inp_auto" /> 명</td>
+						</tr>
+						<tr>
+							<th scope="row"><i class="i_star">*</i> 내용</th>
+							<td class="edit_box_s">
+								에디터 영역<br/>에디터 영역<br/>에디터 영역<br/>에디터 영역<br/>에디터 영역<br/>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row" rowspan="5"><i class="i_star">*</i> 파일 첨부(양식) <br></th>
+							<td>
+								<strong class="file_ui_text_title">자기소개서 (신입/경력)</strong>
+								<div class="file_ui_text btn_left">
+									<input type="text"  id="file_route_01" class="file_text" readonly="readonly" title="첨부된 파일경로" />
+									<span class="file_wrap">
+									찾아보기
+									<input type="file" class="file_add" onchange="javascript:document.getElementById('file_route_01').value=this.value" />
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong class="file_ui_text_title">경력기술서 (경력)</strong>
+								<div class="file_ui_text btn_left">
+									<input type="text"  id="file_route_02" class="file_text" readonly="readonly" title="첨부된 파일경로" />
+									<span class="file_wrap">
+									찾아보기
+									<input type="file" class="file_add" onchange="javascript:document.getElementById('file_route_02').value=this.value" />
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong class="file_ui_text_title">졸업증명서 (신입/경력)</strong>
+								<div class="file_ui_text btn_left">
+									<input type="text"  id="file_route_03" class="file_text" readonly="readonly" title="첨부된 파일경로" />
+									<span class="file_wrap">
+									찾아보기
+									<input type="file" class="file_add" onchange="javascript:document.getElementById('file_route_03').value=this.value" />
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong class="file_ui_text_title">성적증명서 (신입)</strong>
+								<div class="file_ui_text btn_left">
+									<input type="text"  id="file_route_04" class="file_text" readonly="readonly" title="첨부된 파일경로" />
+									<span class="file_wrap">
+									찾아보기
+									<input type="file" class="file_add" onchange="javascript:document.getElementById('file_route_04').value=this.value" />
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<strong class="file_ui_text_title">기술인협회 발급용 경력증명서(경력)</strong>
+								<div class="file_ui_text btn_left ">
+									<input type="text"  id="file_route_05" class="file_text" readonly="readonly" title="첨부된 파일경로" />
+									<span class="file_wrap">
+									찾아보기
+									<input type="file" class="file_add" onchange="javascript:document.getElementById('file_route_05').value=this.value" />
+									</span>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- table_form -->
+			
+			<div class="btn_position">
+				<div class="left">
+					<a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_11">미리보기</a>
+				</div>
+				<div class="right">
+					<a href="#none" class="btn_type_01">취소</a>
+					<a href="#none" class="btn_type_02">등록</a>
+				</div>
+			</div><!-- btn_position -->
+
+		</div><!-- content -->
+	</section>
+	<!-- //container -->
+</div>
+<!-- //wrap -->
+
+
+<!-- pop_04 -->
+<div class="popup_wrap pop_04">
+	<div class="popup_content">
+		<div class="title">부문 선택</div>
+		<div class="stitle">6개의 부문이 선택됨</div>
+		<div class="selected_list">
+			<ul>
+				<li>소장직</li>
+				<li>현장관리직</li>
+				<li>중기관리직</li>
+				<li>토목기술직</li>
+				<li>기능사</li>
+				<li>비서직</li>
+			</ul>
+		</div><!-- selected_list -->
+		<div class="stitle">부문 목록</div>
+		<div class="check_list">
+			<ul>
+				<li><input type="checkbox" id="check01" /><label for="check01">임원</label></li>
+				<li><input type="checkbox" id="check02" /><label for="check02">소장직</label></li>
+				<li><input type="checkbox" id="check03" /><label for="check03">토목기술직</label></li>
+				<li><input type="checkbox" id="check04" /><label for="check04">현장관리직</label></li>
+				<li><input type="checkbox" id="check05" /><label for="check05">기능사</label></li>
+				<li><input type="checkbox" id="check06" /><label for="check06">중기관리직</label></li>
+				<li><input type="checkbox" id="check07" /><label for="check07">비서직</label></li>
+				<li><input type="checkbox" id="check08" /><label for="check08">건축공무</label></li>
+			</ul>
+		</div><!-- check_list -->
+		<div class="btn_box">
+			<a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_05">부문추가</a>
+			<a href="#none" class="btn_type_01 btn_popup_close" data-Popup_Close="pop_04">취소</a>
+			<a href="#none" class="btn_type_02 btn_popup_close" data-Popup_Close="pop_04">저장</a>
+		</div>
+		<button type="button" class="popup_close" data-Popup_Close="pop_04">닫기</button>
+	</div><!-- popup_content -->
+</div><!-- popup_wrap -->
+<!-- // pop_04 -->
+
+
+<!-- pop_05 -->
+<div class="popup_wrap pop_05">
+	<div class="popup_content">
+		<div class="title">부문 선택</div>
+		<div class="stitle">부문추가</div>
+		<div class="add_sector">
+			<input type="text" class="inp" placeholder="부문명을 입력해 주세요."><button type="button" class="btn_type_02">중복확인</button>
+		</div>
+		<div class="btn_box">
+			<a href="#none" class="btn_type_01 btn_popup_close" data-Popup_Close="pop_05">취소</a>
+			<a href="#none" class="btn_type_02 btn_popup_close" data-Popup_Close="pop_05">추가</a>
+		</div>
+		<button type="button" class="popup_close" data-Popup_Close="pop_05">닫기</button>
+	</div><!-- popup_content -->
+</div><!-- popup_wrap -->
+<!-- // pop_05 -->
+
+
+<!-- pop_11 -->
+<div class="popup_wrap pop_11">
+	<div class="popup_content">
+		<div class="title">미리보기</div>
+		<div class="posting_viewpage">
+			<table>
+				<colgroup>
+					<col style="width:1017px">
+					<col style="width:183px">
+				</colgroup>
+				<tbody>
+					<tr class="tr_title">
+						<td>
+							<b>경력직</b>
+							<p>삼호개발 회계, 재무, 토목기술직 경력 채용</p>
+							<span>#회계 #재무 #토목기술직</span><span>~ 2022.03.15</span>
+						</td>
+						<td class="file"><button>첨부파일 <img src="../resources/images/common/file_save.png" alt=""></button></td>
+					</tr>
+					<tr class="cont">
+						<td colspan="2">
+						<img src="../resources/images/temp/@temp_announcement.jpg" alt="">
+						<p class="txt_tit">접수기간 및 접수방법</p>
+						<p class="txt_cont">• 접수기간<span> : 2022년 3월 4일(금)까지 </span></p>
+						<p class="txt_cont">• 접수방법 <span> : 당사 홈페이지에서 직접 입력 및 자기소개서 등 파일첨부 - 당사 양식 사용</span></p>
+						<p class="txt_tit">기타사항</p>
+						<p class="txt_cont">• 보훈대상자 및 장애인은 관련 법령의 의거 우대합니다.</p>
+						<p class="txt_cont">• 마감일 임박시 접속자가 몰릴 수 있으니 가능한 빠른지원 부탁드립니다.</p>
+						<p class="txt_cont">• 본 채용공고 하단에 첨부된 "지원시 유의사항"을 반드시 참고하여 지원 바랍니다.</p>
+						<p class="txt_cont">• 합격 후 제출서류 허위기재 사실이 확인될 시는 채용을 취소 합니다.</p>
+						<p class="txt_cont">• 문의 ☎  02-2046-7713~4</p>
+						</td>
+					</tr>
+					<tr class="file bc_gray">
+						<td colspan="2">
+							<a href="#none"><img src="../resources/images/common/file_save.png" alt=""> 유의사항 및 첨부양식(2111).zip <span>(78.23KB / 다운로드 : 214회)</span></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<button type="button" class="popup_close" data-Popup_Close="pop_11">닫기</button>
+	</div><!-- popup_content -->
+</div><!-- popup_wrap -->
+
+
+</body>
+</html>

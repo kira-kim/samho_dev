@@ -1,0 +1,110 @@
+
+/* common */
+.hire #visual{height:600px;background:url(../images/hire/hire_bg_visual.jpg) no-repeat 0 0;}
+
+.page_title_area .sub_title{font-size: 45px; font-weight: 600; line-height: 60px; letter-spacing: -0.05em; color: #222; margin-top: 50px;}
+.page_title_area .sub_title span{color: #0071d7;}
+
+
+/* common e*/
+
+
+/* [S] talent_style */
+.talent .banner{background: url(../images/hire/talent_banner.jpg)no-repeat 0 0; width: 720px; height: 430px; margin-top: 100px;}
+.talent_cont{margin: 120px 0;}
+.talent_cont .talent_info_txt{margin-top: 50px;}
+.talent_cont .talent_info_txt>div{border-bottom: 1px solid #e5e5e5; padding: 35px 18px;}
+.talent_cont .talent_info_txt>div:last-child{border: none;}
+.talent_cont .talent_info_txt>div h5.tit{font-size: 28px; font-weight: 700; color: #222; letter-spacing: -0.05em; margin-bottom: 20px;}
+.talent_cont .talent_info_txt>div p{font-size: 24px; font-weight: 400; color: #444; letter-spacing: -0.05em;}
+.talent_challenge{padding: 100px 40px 170px; background: #f8f8f8;}
+.talent_challenge .box{background: #fff; border-top: 3px solid #222; display: flex; align-items: center; box-sizing: border-box; width: 640px; height: 200px; margin-top: 30px; padding: 40px 45px;}
+.talent_challenge .box .challenge_icon{width: 120px; height: 120px;}
+.talent_challenge .box .challenge_txt{margin-left: 30px;}
+.talent_challenge .box .challenge_txt p.tit{font-size: 28px; font-weight: 700; color: #222; letter-spacing: -0.05em;}
+.talent_challenge .box .challenge_txt p.txt{font-size: 24px; font-weight: 400; color: #444; letter-spacing: -0.05em; margin-top: 20px; line-height: 38px;}
+.talent_challenge .announcement_direct a{width: 390px; height: 86px;  margin: 60px auto 0; border-radius: 50px; background: #0071d7; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 26px; font-weight: 700; letter-spacing: -0.05em;}
+/* [E] talent_style */
+
+/* [S] policy_style */
+.promotion_cont{background: url(../images/hire/promotion_banner.jpg)no-repeat 0 0; height: 500px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; padding-left: 320px;}
+.promotion_cont .promotion_txt h5{font-size: 50px; font-weight: bold; color: #222; letter-spacing: -0.05em;}
+.promotion_cont .promotion_txt p{font-size: 24px; font-weight: 400; color: #444; line-height: 38px; letter-spacing: -0.05em; margin: 30px 0 40px;}
+.education .edu_cont{margin: 20px auto 120px;}
+.education .edu_cont>div{height: 230px; display: flex; align-items: center; box-sizing: border-box; padding: 40px 0 40px 37px; border: 2px solid #e4e4e4; border-radius: 10px; margin-top: 30px;}
+.education .edu_cont>div .edu_txt{margin-left: 35px;}
+.education .edu_cont>div .edu_txt h5{font-size: 28px; font-weight: 700; color: #222; letter-spacing: -0.05em;} 
+.education .edu_cont>div .edu_txt p{font-size: 24px; font-weight: 400; color: #444; letter-spacing: -0.05em; margin-top: 20px; line-height: 38px;} 
+.prize{padding: 100px 40px 180px; background: #f8f8f8;}
+.prize .prize_cont>div{background: #fff; width: 640px; box-sizing: border-box; padding-top: 50px;}
+.prize .prize_cont>div:last-child{margin-top: 40px;}
+.prize .prize_cont>div .tit{margin-bottom: 70px; text-align: center;}
+.prize .prize_cont>div .tit p{font-size: 45px; font-weight: 700; color: #222; letter-spacing: -0.05em;}
+.prize .prize_cont>div .prize_box{width: 600px; margin: 70px 0 0 40px;}
+.prize .prize_cont>div .prize_box>div{display: flex; align-items: center; padding-bottom: 50px;}
+.prize .prize_cont>div .prize_box>div .prize_txt{margin-left: 20px;}
+.prize .prize_cont>div .prize_box>div .prize_txt h5{font-size: 28px; font-weight: 700; color: #222; letter-spacing: -0.05em;}
+.prize .prize_cont>div .prize_box>div .prize_txt p{font-size: 24px; font-weight: 400; color: #444; letter-spacing: -0.05em; line-height: 38px; margin-top: 15px;}
+
+/* [E] policy_style */
+
+
+/* [S] welfare_style */
+
+.welfare {margin: 0 0 100px;}
+.welfare .support .cont{margin-bottom: 120px;}
+.welfare .support .cont:last-child{margin-bottom: 0;}
+.welfare .support .cont_tit{display: flex; padding-bottom: 20px; border-bottom: 2px solid #0071d7; margin-bottom: 55px;}
+.welfare .support .cont_tit .cont_icon{margin-right: 10px;}
+.welfare .support .cont_tit .cont_icon img{width: 50px; height: 50px;}
+.welfare .support .cont_tit .cont_txt p{font-size: 40px; font-weight: bold; color: #0071d7; letter-spacing: -0.05em;}
+.welfare .support .cont_kinds{display: flex; flex-wrap: wrap;}
+.welfare .support .cont_kinds>div{width: 50%; box-sizing: border-box; padding: 0 0 0 50px; margin-bottom: 50px;}
+.welfare .support .cont_kinds>div:last-child{margin-bottom: 0;}
+.welfare .support .cont_kinds>div .num{margin-bottom: 20px;}
+.welfare .support .cont_kinds>div .num p{font-size: 40px; font-weight: 700; color: #dadada; letter-spacing: -0.05em;}
+.welfare .support .cont_kinds>div .txt p{font-size: 28px; font-weight: 500; color: #222; letter-spacing: -0.05em;}
+.welfare .support .cont_kinds>div .txt p span{font-size: 20px; font-weight: 400; color: #999;}
+.welfare .support .health .cont_kinds>div{width: 100%;}
+.welfare .support .health .cont_kinds>div .txt p{line-height: 28px;}
+/* [E] welfare_style */
+
+/* [S] posting_style */
+.posting{margin: 0 0 150px;}
+.posting .page_title_area .text span{color: #d12424;}
+.posting .posting_kinds{display: flex; justify-content: space-between;}
+.posting .posting_kinds>div{display: flex; align-items: center;}
+.posting .posting_kinds .kinds_btn{padding: 15px 30px; border-radius: 50px; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 400; letter-spacing: -0.05em; color: #222; }
+.posting .posting_kinds .kinds_btn.active{background: #0071d7; color: #fff; font-weight: 500;}
+.posting .ing_txt p{font-size: 22px; font-weight: 400; color: #444; letter-spacing: -0.05em;}
+.posting .table{border-top: 2px solid #222; margin-top: 20px;}
+.posting .table li{width: 100%; box-sizing: border-box; padding: 35px 0 35px 20px; border-bottom: 1px solid #e5e5e5;}
+.posting .table li .tit{font-size: 26px; font-weight: 400; color: #222; letter-spacing: -0.05em; line-height: 38px; margin-bottom: 10px;}
+.posting .table li p span{font-size: 20px; font-weight: 400; color: #999; letter-spacing: -0.05em;}
+.posting .table li p span.date{margin-left: 30px;}
+
+.posting .banner{background: url('../images/hire/posting_banner.jpg')no-repeat 0 0; width: 720px; height: 430px; margin: 100px 0 0;}
+/* [E] posting_style */
+
+
+/* [S] posting_view_style */
+.posting_view{margin: 100px 0 150px;}
+.view_table{border-top: 2px solid #222;}
+.view_table>div{border-bottom: 1px solid #e5e5e5;}
+.view_table>div.table_tit{padding: 46px 0 46px 20px;}
+.view_table .table_tit .icon p{padding: 15px 30px; background: #0071d7; border-radius: 50px; font-size: 24px; font-weight: 400; color: #fff; letter-spacing: -0.05em; width: fit-content;}
+.view_table .table_tit .tit{margin: 15px 0;}
+.view_table .table_tit .tit h3{font-size: 38px; font-weight: bold; color: #222; letter-spacing: -0.05em; line-height: 50px;}
+.view_table .table_tit .sub_tit{display: flex; align-items: center;}
+.view_table .table_tit .sub_tit p{font-size: 22px; font-weight: 400; color: #999; letter-spacing: -0.05em;}
+.view_table .table_tit .sub_tit p.date{margin-left: 30px;}
+.view_table .table_cont{padding-bottom: 130px;}
+.view_table .table_cont .img{text-align: center;}
+.view_table .table_cont .txt{margin-top: 40px;}
+.view_table .table_cont .txt .tit{font-size: 24px; font-weight: 600; color: #222; letter-spacing: -0.05em; margin-bottom: 10px;}
+.view_table .table_cont .txt .cont{display: flex; align-items: baseline; font-size: 26px; font-weight: 400; line-height: 38px; color: #222; letter-spacing: -0.05em;}
+.view_table .table_cont .txt .cont span{color: #444;}
+.posting_view .ex{margin: 50px 0; text-align: center;}
+.posting_view .ex p{font-size: 24px; font-weight: 400; color: #d12424; letter-spacing: -0.05em;}
+.posting_view .list{width: 270px; height: 86px; border: 1px solid #222; border-radius: 50px; font-size: 26px; font-weight: 400; color: #444; letter-spacing: -0.05em; display: flex; align-items: center; justify-content: center; margin: 0 auto;}
+/* [E] posting_view_style */

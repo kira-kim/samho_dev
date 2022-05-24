@@ -1,0 +1,36 @@
+
+/* common */
+.sustainability #visual{height:600px;background:url(../images/sustainability/sustainability_bg_visual.jpg) no-repeat 0 0}
+
+
+/* [S] quality_style */
+.sustainability .section_sub_tit{text-align: center; margin-top: 100px;}
+.sustainability .section_sub_tit h3{font-size: 48px; font-weight: bold; color: #272727; letter-spacing: -0.05em; line-height: 60px;}
+.sustainability .section_sub_tit h3 span{color: #0071d7;}
+.sustainability .section_sub_tit p{font-size: 24px; font-weight: 400; color: #444; letter-spacing: -0.05em; line-height: 38px; margin-top: 35px;}
+.quality{margin-bottom: 120px;}
+.quality .banner{background: url('../images/sustainability/quality_banner.jpg')no-repeat 0 0; width: 640px; height: 512px;}
+.quality .banner p{margin-bottom: 100px;}
+.quality .infor_equation{display: flex; align-items: center; justify-content: space-between; margin-top: 40px;}
+.quality .infor_equation>div{width: 184px; height: 184px; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.quality .infor_equation>div p{font-size: 22px; font-weight: 600; color: #0071d7; letter-spacing: -0.05em; display: flex; flex-direction: column; text-align: center;}
+.quality .infor_equation .target,
+.quality .infor_equation .creation{background: #fff; border: 1px solid #0071d7;}
+.quality .infor_equation>div.result{background: #0071d7;}
+.quality .infor_equation>div.result p{font-size: 16px; color: #fff;}
+.quality .infor_equation>div.result p span{font-size: 24px; font-weight: bold;}
+/* [E] quality_style */
+
+/* [S] safety_style */
+.safety{background: #f8f8f8; padding: 110px 40px; box-sizing: border-box;}
+.safety .banner{background: url('../images/sustainability/safety_banner.jpg')no-repeat 0 0; width: 640px; height: 592px; margin-bottom: 30px;}
+.safety .safety_policy{background: #fff; width: 640px; margin: 0 auto; padding: 50px 0 30px;}
+.safety .safety_policy .safety_policy_icon{width: 322px; height: 322px; margin: 0 auto;}
+.safety .safety_policy .safety_policy_txt{margin: 40px 0 0 40px;}
+.safety .safety_policy .safety_policy_txt>div{display: flex; align-items: baseline; margin-top: 20px;}
+.safety .safety_policy .safety_policy_txt>div span{display: block; width: 10px; height: 10px; background: #6d6d6d; border-radius: 50%;}
+.safety .safety_policy .safety_policy_txt>div p{font-size: 24px; font-weight: 400; color: #444; letter-spacing: -0.05em; line-height: 35px; margin-left: 10px;}
+.safety .safety_ex{margin-top: 80px; padding-bottom: 150px; text-align: center;}
+.safety .safety_ex p{font-size: 24px; font-weight: 400; color: #666; letter-spacing: -0.05em; line-height: 36px; margin-bottom: 20px;}
+.safety .safety_ex p span{font-weight: 600; color: #272727;}
+/* [E] safety_style */

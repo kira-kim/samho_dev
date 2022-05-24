@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>메일발신관리 / 인재채용관리</title>
+<meta name="author" content="webcss">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/calendar/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="../../resources/css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="../resources/css/common.css">
+<script type="text/javascript" src="../resources/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../resources/js/calendar/jquery-ui.js"></script>
+<script type="text/javascript" src="../resources/js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="../resources/js/common.js"></script>
+</head>
+
+<body>
+<!-- wrap -->
+<div id="wrap" class="layout_type_04">
+	<!-- header -->
+	<div id="header_wrap">
+		<header>
+			<div class="logo"><a href="#none"><img src="../resources/images/b_logo.png" alt="" /></a></div>
+			<div class="side_link"><a href="#none">로그인</a></div>
+		</header>
+	</div>
+	<!-- //header -->
+
+	<!-- aside -->
+	<aside class="nav2dep_motion">
+		<div class="aside_title">
+			환영합니다. <br>
+			<strong>'홍길동'</strong>님
+		</div>
+		<ul class="depth1">
+			<li><a href="#none">시스템관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">관리자관리</a></li>
+					<li><a href="#none">관리자등급관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">메인관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">팝업관리</a></li>
+					<li><a href="#none">메인배너관리(KR/EN)</a></li>
+					<li><a href="#none">배너순서관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">회사소개관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">주요연혁관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">사업실적관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">시공능력관리(KR/EN)</a></li>
+					<li><a href="#none">시공실적관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">투자정보관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">재무정보관리(KR/EN)</a></li>
+					<li><a href="#none">공고관리</a></li>
+				</ul>
+			</li>
+			<li class="active"><a href="#none">인재채용관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">채용공고관리</a></li>
+					<li><a href="#none">지원자관리</a></li>
+					<li class="active"><a href="#none">메일발신관리</a></li>
+				</ul>
+			</li>
+			<li><a href="#none">홍보센터관리<i class="xi-angle-right"></i></a>
+				<ul class="depth2">
+					<li><a href="#none">수상실적관리(KR/EN)</a></li>
+					<li><a href="#none">회사소식관리</a></li>
+				</ul>
+			</li>
+		</ul>
+	</aside>
+	<!-- //aside -->
+
+	<!-- container -->
+	<section id="container">
+		<div id="content">
+			<div class="page_title">메일발신관리</div>
+
+			<div class="search_form_02">
+				<div class="search">
+					<span class="label_txt">검색</span>
+					<input type="text" class="inp_auto" />
+					<a href="#none" class="btn_type_02">검색<i class="xi-search"></i></a>
+					<div class="p_t_10">
+						<span class="label_txt">날짜 검색</span>
+						<input type="text" class="inp_auto btn_calendar_type_02" readonly />
+						<span class="label_txt">전송상태</span>
+						<select>
+							<option value="">All</option>
+							<option value="">발신완료</option>
+							<option value="">일부실패</option>
+							<option value="">전체실패</option>
+						</select> 
+					</div>
+				</div>
+				<div class="abs_right">
+					<a href="#none" class="btn_type_02">엑셀 추출</a>
+				</div>
+			</div><!-- search_form_02 -->
+			
+			<div class="table_text_info">
+				<div class="left_box">총, <strong class="c_impt">13건</strong></div>
+				<div class="right_box">
+					<select>
+							<option value="">10</option>
+					</select>
+				</div>
+			</div><!-- table_text_info -->
+
+			<div class="table_list type02">
+				<table>
+					<colgroup>
+						<col style="width:4%">
+						<col style="width:7%">
+						<col style="width:45%">
+						<col style="width:15%">
+						<col style="width:15%">
+						<col style="width:14%">
+					</colgroup>
+					<thead>
+						<tr>
+							<th><input type="checkbox" /></th>
+							<th>전송상태</th>
+							<th>제목</th>
+							<th>수신자</th>
+							<th>발신자</th>
+							<th>발신일시 <button class="btn_icon"><i class="xi-exchange xi-rotate-90"></i><span class="txt">교체</span></button></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td><strong>발신완료</strong></td>
+							<td class="td_subject"><a href="#none">삼호개발에서 입사 지원자에게 처음으로 인사드립니다.</a></td>
+							<td>총 32명 <a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_13">보기</a></td>
+							<td>SAMHO_채용담당</td>
+							<td>2021-11-24 16:32:12</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td><strong class="c_org">일부실패</strong></td>
+							<td class="td_subject"><a href="#none">삼호개발에서 입사 지원자에게 처음으로 인사드립니다.</a></td>
+							<td>총 32명 <a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_13">보기</a></td>
+							<td>SAMHO_채용담당</td>
+							<td>2021-11-24 16:32:12</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td><strong>발신완료</strong></td>
+							<td class="td_subject"><a href="#none">삼호개발에서 입사 지원자에게 처음으로 인사드립니다.</a></td>
+							<td>총 32명 <a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_13">보기</a></td>
+							<td>SAMHO_채용담당</td>
+							<td>2021-11-24 16:32:12</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td><strong>전체실패</strong></td>
+							<td class="td_subject"><a href="#none">삼호개발에서 입사 지원자에게 처음으로 인사드립니다.</a></td>
+							<td>총 32명 <a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_13">보기</a></td>
+							<td>SAMHO_채용담당</td>
+							<td>2021-11-24 16:32:12</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td><strong>발신완료</strong></td>
+							<td class="td_subject"><a href="#none">삼호개발에서 입사 지원자에게 처음으로 인사드립니다.</a></td>
+							<td>총 32명 <a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_13">보기</a></td>
+							<td>SAMHO_채용담당</td>
+							<td>2021-11-24 16:32:12</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td><strong>발신완료</strong></td>
+							<td class="td_subject"><a href="#none">삼호개발에서 입사 지원자에게 처음으로 인사드립니다.</a></td>
+							<td>총 32명 <a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_13">보기</a></td>
+							<td>SAMHO_채용담당</td>
+							<td>2021-11-24 16:32:12</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td><strong>발신완료</strong></td>
+							<td class="td_subject"><a href="#none">삼호개발에서 입사 지원자에게 처음으로 인사드립니다.</a></td>
+							<td>총 32명 <a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_13">보기</a></td>
+							<td>SAMHO_채용담당</td>
+							<td>2021-11-24 16:32:12</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td><strong>발신완료</strong></td>
+							<td class="td_subject"><a href="#none">삼호개발에서 입사 지원자에게 처음으로 인사드립니다.</a></td>
+							<td>총 32명 <a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_13">보기</a></td>
+							<td>SAMHO_채용담당</td>
+							<td>2021-11-24 16:32:12</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td><strong>발신완료</strong></td>
+							<td class="td_subject"><a href="#none">삼호개발에서 입사 지원자에게 처음으로 인사드립니다.</a></td>
+							<td>총 32명 <a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_13">보기</a></td>
+							<td>SAMHO_채용담당</td>
+							<td>2021-11-24 16:32:12</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" /></td>
+							<td><strong>발신완료</strong></td>
+							<td class="td_subject"><a href="#none">삼호개발에서 입사 지원자에게 처음으로 인사드립니다.</a></td>
+							<td>총 32명 <a href="#none" class="btn_type_02 popup_open" data-Popup_Open="pop_13">보기</a></td>
+							<td>SAMHO_채용담당</td>
+							<td>2021-11-24 16:32:12</td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- table_list -->
+
+			<div class="paginate_ui">
+				<a href="#none" class="btn btn_fst">처음</a>
+				<a href="#none" class="btn btn_prv">이전</a>
+				<a href="#">1</a>
+				<strong>2</strong>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#none" class="btn btn_nxt">다음</a>
+				<a href="#none" class="btn btn_lst">끝</a>
+			</div><!--paginate_ui-->
+
+		</div><!-- content -->
+	</section>
+	<!-- //container -->
+</div>
+<!-- //wrap -->
+
+
+<!-- pop_13-->
+<div class="popup_wrap pop_13">
+	<div class="popup_content">
+		<div class="title">수신자 조회</div>
+		<div class="stitle">32명</div>
+		<div class="scrolltable">
+			<div class="scroll">
+				<table>
+					<colgroup>
+						<col style="width:25%">
+						<col style="width:25%">
+						<col style="width:25%">
+						<col style="width:25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<th style="width:25%"><div>공고회차</div></th>
+							<th style="width:25%"><div>지원자명</div></th>
+							<th style="width:25%"><div>지원부문</div></th>
+							<th style="width:25%"><div>최종판정</div></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+						<tr>
+							<td>54-12</td>
+							<td><a href="#none" target="_blank">홍길동</a></td>
+							<td>토목기술직</td>
+							<td>합격</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div><!-- scrolltable -->
+		<div class="btn_box">
+			<a href="#none" class="btn_type_02 btn_popup_close" data-Popup_Close="pop_13">확인</a>
+		</div>
+		<button type="button" class="popup_close" data-Popup_Close="pop_13">닫기</button>
+	</div><!-- popup_content -->
+</div><!-- popup_wrap -->
+<!-- //pop_13 -->
+
+
+</body>
+</html>
